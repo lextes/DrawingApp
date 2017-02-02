@@ -1,1 +1,1 @@
-Esctrura para dibujar
+Estructura para dibujar
