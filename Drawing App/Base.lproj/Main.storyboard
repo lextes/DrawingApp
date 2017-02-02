@@ -132,6 +132,9 @@
                                             <constraint firstAttribute="height" constant="53" id="kwi-OK-axY"/>
                                         </constraints>
                                         <state key="normal" image="ResetIcon"/>
+                                        <connections>
+                                            <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mvT-UZ-T9l"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sK9-2v-nCP">
                                         <rect key="frame" x="110" y="0.0" width="60" height="53"/>
@@ -140,6 +143,9 @@
                                             <constraint firstAttribute="height" constant="53" id="oE7-gi-k5g"/>
                                         </constraints>
                                         <state key="normal" image="Saveicon"/>
+                                        <connections>
+                                            <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V7g-kQ-pZ0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW0-Mi-iCp">
                                         <rect key="frame" x="220" y="0.0" width="60" height="53"/>
@@ -148,6 +154,9 @@
                                             <constraint firstAttribute="width" constant="60" id="3Wn-99-yRx"/>
                                         </constraints>
                                         <state key="normal" image="EraserIcon"/>
+                                        <connections>
+                                            <action selector="erase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uiD-Ay-3xA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqM-m5-0fT">
                                         <rect key="frame" x="330" y="0.0" width="60" height="53"/>

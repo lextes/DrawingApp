@@ -84,18 +84,18 @@ class ViewController: UIViewController {
     }
     @IBAction func save(_ sender: AnyObject) {
         
-        let actionSheet = UIAlertController(title: "Pick your option", message: "", preferredStyle: .actionSheet)
+         let actionSheet = UIAlertController(title: "Pick your option", message: "", preferredStyle: .actionSheet)
         actionSheet.addAction(UIAlertAction(title: "Pick an image", style: .default, handler: { (_) in
             
-            let imagePicker = UIImagePickerController()
-            imagePicker.sourceType = .photoLibrary
-            imagePicker.allowsEditing = false
-            imagePicker.delegate = self
+           let imagePicker = UIImagePickerController()
+         imagePicker.sourceType = .photoLibrary
+           imagePicker.allowsEditing = false
+           imagePicker.delegate = self
             
-            self.present(imagePicker, animated: true, completion: nil)
+         self.present(imagePicker, animated: true, completion: nil)
             
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Save your drawing", style: .default, handler: { (_) in
+         }))
+         actionSheet.addAction(UIAlertAction(title: "Save your drawing", style: .default, handler: { (_) in
             if let image = self.imageView.image {
                 UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
             }
